@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ideascientist",
-  "version": "0.1.0",
+  "version": "0.1.0+codex.20261016141813",
   "description": "Evidence-grounded scientific ideation adapted from IdeaScientist for local Codex use.",
   "author": {
     "name": "Local adaptation; based on IdeaScientist by Jiarui Liu et al."
@@ -12,7 +12,7 @@
       "interface": {
         "displayName": "IdeaScientist 科研构思",
         "shortDescription": "从文献证据到可证伪研究方案",
-        "longDescription": "参考 IdeaScientist 的缺口分析、跨领域机制迁移、反驳式审查和方案写作。本地适配使用当前 Codex 模型与已有工具，不包含作者训练权重或完整 Idea Vault。",
+        "longDescription": "参考 IdeaScientist 的证据驱动科研构思流程，优先发展用户已有 idea，深入比较最近邻工作并论证有意义的 novelty；严重重合时明确说明。本地适配使用当前 Codex 模型，不包含作者训练权重或完整 Idea Vault。",
         "developerName": "Local adaptation",
         "category": "Productivity",
         "capabilities": [],
