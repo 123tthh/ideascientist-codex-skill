@@ -1,0 +1,6 @@
+interface:
+  display_name: "IdeaScientist 科研构思"
+  short_description: "从方法缺口出发，以正文证据支撑跨领域机制迁移和可证伪研究方案"
+  default_prompt: "用 $ideascientist 基于当前项目和相关论文形成一个有证据、可证伪的研究方案。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,19 @@
+{
+  "name": "ideascientist",
+  "version": "0.1.0",
+  "description": "Evidence-grounded scientific ideation adapted from IdeaScientist for local Codex use.",
+  "author": {
+    "name": "Local adaptation; based on IdeaScientist by Jiarui Liu et al."
+  },
+  "license": "CC-BY-NC-4.0",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "IdeaScientist 科研构思",
+    "shortDescription": "从文献证据到可证伪研究方案",
+    "longDescription": "参考 IdeaScientist 的缺口分析、跨领域机制迁移、反驳式审查和方案写作。本地适配使用当前 Codex 模型与已有工具，不包含作者训练权重或完整 Idea Vault。",
+    "developerName": "Local adaptation",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "用 $ideascientist 基于当前项目和相关论文，形成一个有证据、可证伪的研究方案。"
+  }
+}
